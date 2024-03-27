@@ -1,0 +1,110 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  min-height: 100vh;
+  background-color: #606c38;
+}
+
+.everything {
+  background-color: #fefae0;
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: 10px;
+  border-radius: 2rem;
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.header {
+  color: #283618;
+  margin: 10px;
+  text-align: center;
+}
+
+.formInput {
+  margin: 10px;
+  margin-bottom: 5px;
+}
+
+.formInput input {
+  height: 40px;
+  width: 300px;
+  outline: none;
+  border: 0.5px solid black;
+  border-radius: 0.5rem;
+}
+
+.exchangeBox {
+  margin: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.fromBox {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  border: 0.5px solid black;
+  border-radius: 0.5rem;
+  height: 35px;
+}
+
+.toBox {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  border: 0.5px solid black;
+  border-radius: 0.5rem;
+  height: 35px;
+}
+
+.img img {
+  position: relative;
+  top: 2px;
+  max-width: 2rem;
+}
+
+.select select {
+  outline: none;
+  border: none;
+  font-size: 0.8rem;
+  font-weight: 550;
+}
+
+.formInfo {
+  margin: 10px;
+}
+
+.formButton {
+  display: flex;
+}
+
+.formButton button {
+  margin: 10px;
+  background-color: #dda15e;
+  width: 100%;
+  color: white;
+  height: 40px;
+  border: none;
+  border-radius: 0.5rem;
+  font-size: 0.9em;
+}
+
+.exchangeIcon i {
+  position: relative;
+  top: 10px;
+  font-size: 1.5rem;
+}
